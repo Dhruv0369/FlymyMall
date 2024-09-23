@@ -5,6 +5,15 @@ import golddress from '../assets/images/what-we-2.png'
 import goldcoin from '../assets/images/what-we-1.png'
 import laptop from '../assets/images/control-img.png'
 import cart1 from '../assets/images/cat-1.png'
+import cart2 from '../assets/images/cat-2.png'
+import cart3 from '../assets/images/cat-3.png'
+import cart4 from '../assets/images/cat-4.png'
+import cart5 from '../assets/images/cat-5.png'
+import cart6 from '../assets/images/cat-6.png'
+import cart7 from '../assets/images/cat-7.png'
+import cart8 from '../assets/images/cat-8.png'
+import cart9 from '../assets/images/cat-9.png'
+import cart10 from '../assets/images/cat-10.png'
 import proimg from '../assets/images/pro-img.jpg'
 import amazon from '../assets/images/amazon.svg'
 import buy from '../assets/images/buy.svg'
@@ -29,6 +38,8 @@ const Homepage = () => {
     return (
         <>
             <div className="main">
+
+                {/* Millions of Products */}
                 <section>
                     <div className="banner-area">
                         <img className="top-banner" src={topbanner} alt="" />
@@ -39,10 +50,12 @@ const Homepage = () => {
                                     Millions of Products from US, UK &amp; China <br />{" "}
                                     <span> Shop from Africa, Pay in </span>
                                     <span
-                                        className="clr txt-type"
-                                        data-wait={5000}
-                                        data-words='["Naira", "Crypto", "USD"]'
-                                    />
+                                        className="clr txt-type txt"
+                                        style={{ color: '#FFBE2E' }}
+                                        data-wait={2000}
+                                        data-words='["Naira", "Crypto", "USD"]'>
+                                    </span>
+
                                 </h1>
                                 <p>
                                     We bring together different international stores and malls <br />
@@ -78,6 +91,7 @@ const Homepage = () => {
                     </div>
                 </section>
 
+                {/* What We Do? */}
                 <section>
                     <div className="what-we-do">
                         <div className="container">
@@ -160,39 +174,42 @@ const Homepage = () => {
                     </div>
                 </section>
 
+                {/* Why Shop with us */}
                 <section>
                     <div className="control-section">
-                        <div className="row">
-                            <div className="col-xl-10 col-lg-10 m-auto">
-                                <div className="in-flex">
-                                    <div className="left-image">
-                                        <img src={laptop} alt="control-img" />
-                                    </div>
-                                    <div className="right-content">
-                                        <h5>Why Shop with us</h5>
-                                        <h2>Easy-to-use interface and cost-saving AI features.</h2>
-                                        <p>
-                                            From our AI-enabled lowest price search to payment in local
-                                            currency, our system ensures there are no barriers to your
-                                            shopping experience. We simplify shopping in the US, UK &amp;
-                                            China from Africa Find out our best features to give you the
-                                            best experience.
-                                        </p>
-                                        <ul>
-                                            <li>Aenean quam ornare. Curabitur blandit.</li>
-                                            <li>Aenean quam ornare. Curabitur blandit.</li>
-                                            <li>Aenean quam ornare. Curabitur blandit.</li>
-                                            <li>Aenean quam ornare. Curabitur blandit.</li>
-                                        </ul>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-10 col-lg-10 m-auto">
+                                    <div className="in-flex">
+                                        <div className="left-image">
+                                            <img src={laptop} alt="control-img" />
+                                        </div>
+                                        <div className="right-content">
+                                            <h5>Why Shop with us</h5>
+                                            <h2>Easy-to-use interface and cost-saving AI features.</h2>
+                                            <p>
+                                                From our AI-enabled lowest price search to payment in local
+                                                currency, our system ensures there are no barriers to your
+                                                shopping experience. We simplify shopping in the US, UK &amp;
+                                                China from Africa Find out our best features to give you the
+                                                best experience.
+                                            </p>
+                                            <ul>
+                                                <li>Aenean quam ornare. Curabitur blandit.</li>
+                                                <li>Aenean quam ornare. Curabitur blandit.</li>
+                                                <li>Aenean quam ornare. Curabitur blandit.</li>
+                                                <li>Aenean quam ornare. Curabitur blandit.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        {/* <div className="container">
                             <div className="slider-area">
                                 <h2>Shop Categories</h2>
-                                <div className="owl-carousel owl-theme owl-loaded owl-drag" id="categories-slider">
+                                <div
+                                    className="owl-carousel owl-theme owl-loaded owl-drag"
+                                    id="categories-slider"
+                                >
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#F2FCE4" }}>
                                             <a href="#">
@@ -200,7 +217,7 @@ const Homepage = () => {
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
-                                                    Amazon
+                                                    Amzon
                                                 </a>
                                             </h5>
                                             <div className="no-of-item">26 items</div>
@@ -209,7 +226,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#F4F6FA" }}>
                                             <a href="#">
-                                                <img src={cart1} alt="cat-img" />
+                                                <img src={cart2} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -222,7 +239,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#ECFFEC" }}>
                                             <a href="#">
-                                                <img src={cart1} alt="cat-img" />
+                                                <img src={cart3} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -235,7 +252,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#FEEFEA" }}>
                                             <a href="#">
-                                                <img src={cart1} alt="cat-img" />
+                                                <img src={cart4} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -248,7 +265,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#FFF3EB" }}>
                                             <a href="#">
-                                                <img src={cart1} alt="cat-img" />
+                                                <img src={cart5} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -261,7 +278,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#FFF3FF" }}>
                                             <a href="#">
-                                                <img src={cart1} alt="cat-img" />
+                                                <img src={cart6} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -274,7 +291,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#F2FCE4" }}>
                                             <a href="#">
-                                                <img src="assets/images/cat-7.png" alt="cat-img" />
+                                                <img src={cart7} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -287,7 +304,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#FEEFEA" }}>
                                             <a href="#">
-                                                <img src="assets/images/cat-8.png" alt="cat-img" />
+                                                <img src={cart8} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -300,7 +317,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#FFFCEB" }}>
                                             <a href="#">
-                                                <img src="assets/images/cat-9.png" alt="cat-img" />
+                                                <img src={cart9} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -313,7 +330,7 @@ const Homepage = () => {
                                     <div className="item">
                                         <div className="box" style={{ backgroundColor: "#FEEFEA" }}>
                                             <a href="#">
-                                                <img src="assets/images/cat-10.png" alt="cat-img" />
+                                                <img src={cart10} alt="cat-img" />
                                             </a>
                                             <h5>
                                                 <a href="#" className="cat-name">
@@ -325,10 +342,13 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+
+                        </div>
+
                     </div>
                 </section>
 
+                {/* Daily Best Sells */}
                 <section>
                     <div className="product-section">
                         <div className="container">
@@ -2011,6 +2031,7 @@ const Homepage = () => {
                     </div>
                 </section>
 
+                {/* Our Clients */}
                 <section>
                     <div className="price-main">
                         <div className="container">
@@ -2101,7 +2122,7 @@ const Homepage = () => {
                                                                 type="checkbox"
                                                                 defaultValue=""
                                                                 id="flexCheckChecked"
-                                                                defaultChecked=""
+                                                                defaultChecked={true}
                                                             />
                                                         </div>
                                                     </div>
@@ -2123,7 +2144,7 @@ const Homepage = () => {
                                                                 type="checkbox"
                                                                 defaultValue=""
                                                                 id="flexCheckChecked"
-                                                                defaultChecked=""
+                                                                defaultChecked={true}
                                                             />
                                                         </div>
                                                     </div>
@@ -2151,6 +2172,7 @@ const Homepage = () => {
                     </div>
                 </section>
 
+                {/* What Makes Us Different? */}
                 <section>
                     <div className="make-us">
                         <div className="container">
@@ -2341,6 +2363,7 @@ const Homepage = () => {
                     </div>
                 </section>
 
+                {/* Join Our Community */}
                 <section>
                     <div className="counter-main">
                         <div className="container">
@@ -2380,6 +2403,7 @@ const Homepage = () => {
                     </div>
                 </section>
 
+                {/* bottom-img */}
                 <section>
                     <div className="bottom-img">
                         <div className="container">

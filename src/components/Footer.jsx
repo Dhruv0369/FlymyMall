@@ -49,7 +49,7 @@ const Footer = () => {
                                                 />
                                             </g>
                                         </svg>
-                                        <strong>Address:</strong>
+                                        <strong>Address: </strong>
                                         <span>
                                             5171 W Campbell Ave undefined Kent, Utah 53127 United States
                                         </span>
@@ -95,7 +95,7 @@ const Footer = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <strong>Call Us:</strong>
+                                        <strong>Call Us: </strong>
                                         <span>
                                             <a href="tel:(+91)-540-025-124553">(+91)-540-025-124553</a>
                                         </span>
@@ -146,7 +146,7 @@ const Footer = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <strong>Email:</strong>
+                                        <strong>Email: </strong>
                                         <span>
                                             <a href="mailto:sale@Nest.com">sale@Nest.com</a>
                                         </span>
@@ -197,7 +197,7 @@ const Footer = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <strong>Hours:</strong>
+                                        <strong>Hours: </strong>
                                         <span>10:00 - 18:00, Mon - Sat</span>
                                     </li>
                                 </ul>
@@ -277,7 +277,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-bottom">
                             <div className="row">
-                                <div className="col-xl-3 col-lg-3">
+                                <div className="col-xl-3 col-lg-6">
                                     <div className="copyright">
                                         © 2024, <a href="#"> FlymyMall</a> All rights reserved
                                     </div>
@@ -298,7 +298,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-lg-3">
+                                <div className="col-xl-3 col-lg-6">
                                     <div className="mobile-social-icon">
                                         <h6>Follow Us</h6>
                                         <a href="#">
