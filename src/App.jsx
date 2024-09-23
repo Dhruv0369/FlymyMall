@@ -8,6 +8,7 @@ import Blog from './components/Blog';
 import Cars from './components/Cars';
 import Contact from './components/Contact';
 import Ordertracking from './components/Ordertracking';
+import Login from './components/Login';
 
 
 
@@ -24,8 +25,9 @@ function App() {
           <Route path="/cars" element={<Cars />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/ordertracking" element={<Ordertracking />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
-        <Footer />
+        
       </Router>
     </>
   )

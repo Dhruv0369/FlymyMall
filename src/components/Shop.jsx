@@ -4,6 +4,7 @@ import topbanner from '../assets/images/inner-top-banner.jpg';
 import proimg from '../assets/images/pro-img.jpg';
 import buy from '../assets/images/buy.svg';
 import newsletter from '../assets/images/newsletter.png';
+import Footer from './Footer';
 
 const Shop = () => {
     useEffect(() => {
@@ -819,7 +820,7 @@ const Shop = () => {
                     </div>
                 </section>
             </div>
-
+            <Footer />
         </>
     )
 }

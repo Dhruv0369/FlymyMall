@@ -3,7 +3,7 @@ import logo from '../assets/images/logo-cl.png';
 import logowhite from '../assets/images/logo-wh.png';
 import menu from '../assets/images/menu-bars-dark.svg';
 import menuwhite from '../assets/images/menu-bars-white.svg';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     const handleScrollToTop = () => {
@@ -69,9 +69,9 @@ const Header = () => {
                                         <span className="count">03</span>
                                     </a>
                                 </div>
-                                <a href="/#" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
+                                <Link to="/login" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
                                     Login/Sign up
-                                </a>
+                                </Link>
                             </div>
                             <div className="btn-menu">
                                 <img className="menu-bars-white" src={menuwhite} alt="White Menu" />
@@ -141,9 +141,9 @@ const Header = () => {
                                             </svg>
                                         </a>
                                     </div>
-                                    <a href="/#" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
-                                        Login/Sign up
-                                    </a>
+                                    <Link to="/login" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
+                                    Login/Sign up
+                                </Link>
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logowhite from '../assets/images/logo-wh.png';
 import logo from '../assets/images/logo-cl.png';
 import menu from '../assets/images/menu-bars-dark.svg';
@@ -65,13 +65,13 @@ const Headerwhite = () => {
                   <a href="#">
                     {/* SVG Cart Icon */}
                     <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21.75 3H20.3643C19.8546 3 19.4086 3.34265 19.2773 3.83513L18.8941 5.27209M16.5 14.25C18.1569 14.25 19.5 15.5931 19.5 17.25H3.75M16.5 14.25H5.28175C4.16063 11.9494 3.1823 9.56635 2.35827 7.1125C7.11995 5.89646 12.1095 5.25 17.25 5.25C17.7998 5.25 18.3479 5.2574 18.8941 5.27209M16.5 14.25L18.8941 5.27209M18 20.25C18 20.6642 18.3358 21 18.75 21C19.1642 21 19.5 20.6642 19.5 20.25C19.5 19.8358 19.1642 19.5 18.75 19.5C18.3358 19.5 18 19.8358 18 20.25ZM5.25 20.25C5.25 20.6642 5.58579 21 6 21C6.41421 21 6.75 20.6642 6.75 20.25C6.75 19.8358 6.41421 19.5 6 19.5C5.58579 19.5 5.25 19.8358 5.25 20.25Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
+                      <path d="M21.75 3H20.3643C19.8546 3 19.4086 3.34265 19.2773 3.83513L18.8941 5.27209M16.5 14.25C18.1569 14.25 19.5 15.5931 19.5 17.25H3.75M16.5 14.25H5.28175C4.16063 11.9494 3.1823 9.56635 2.35827 7.1125C7.11995 5.89646 12.1095 5.25 17.25 5.25C17.7998 5.25 18.3479 5.2574 18.8941 5.27209M16.5 14.25L18.8941 5.27209M18 20.25C18 20.6642 18.3358 21 18.75 21C19.1642 21 19.5 20.6642 19.5 20.25C19.5 19.8358 19.1642 19.5 18.75 19.5C18.3358 19.5 18 19.8358 18 20.25ZM5.25 20.25C5.25 20.6642 5.58579 21 6 21C6.41421 21 6.75 20.6642 6.75 20.25C6.75 19.8358 6.41421 19.5 6 19.5C5.58579 19.5 5.25 19.8358 5.25 20.25Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                   </a>
                 </div>
-                <a href="/#" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
+                <Link to="/login" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
                   Login/Sign up
-                </a>
+                </Link>
               </div>
               <div className="btn-menu">
                 <img className="menu-bars-white" src={menuwhite} alt="" />
@@ -138,9 +138,9 @@ const Headerwhite = () => {
                       </svg>
                     </a>
                   </div>
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
+                  <Link to="/login" data-bs-toggle="modal" data-bs-target="#log-in" className="btn">
                     Login/Sign up
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

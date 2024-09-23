@@ -21,6 +21,7 @@ import performance2 from '../assets/images/performance-2.jpg';
 import roundtitle from '../assets/images/round-title.jpg';
 import member from '../assets/images/member.jpg';
 import newsletter from '../assets/images/newsletter.png';
+import Footer from './Footer';
 
 
 const About = () => {
@@ -448,7 +449,7 @@ const About = () => {
                     </div>
                 </section>
             </>
-
+            <Footer />
         </>
     )
 }

@@ -9,6 +9,7 @@ import '../assets/css/select2.min.css';
 import '../assets/build/css/countrySelect.css';
 import '../assets/css/owl.carousel.min.css';
 import '../assets/css/owl.theme.default.min.css';
+import Footer from './Footer';
 
 const Homemain = () => {
   useEffect(() => {
@@ -62,6 +63,7 @@ const Homemain = () => {
       <Header />
       <Homepage />
       <TypeWriterEffect />
+      <Footer />
     </>
   );
 };
